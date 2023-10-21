@@ -11,7 +11,14 @@
     <script src="./scripts.js" async="async"></script>
 </head>
 <body>
-    <img src="./assets/7.jpg" alt="bg-img" class="bg-img" />
+    <img src="./assets/universe.jpg" alt="bg-img" class="bg-img" />
+    <div class="container">
+        <div class="box">
+            <h2>Lista To-Do</h2>
+            <input type="text" placeholder="Escreva aqui..." id="inputBox">
+            <ul id="list"></ul>
+        </div>
+    </div>
     <div class="clock">
         <div class="digital" style="--clr: #ff2972;">
             <div class="screen" data-text="Hours">
@@ -35,9 +42,9 @@
             </div>
         </div>
         <div class="digital">
-            <div class="box" id="hr" style="--clr:#ff2972;"></div>
-            <div class="box" id="min" style="--clr:#fee800;"></div>
-            <div class="box" id="sec" style="--clr:#04fc13;"></div>
+            <div class="box-clock" id="hr" style="--clr:#ff2972;"></div>
+            <div class="box-clock" id="min" style="--clr:#fee800;"></div>
+            <div class="box-clock" id="sec" style="--clr:#04fc13;"></div>
             <div id="ampm"></div>
         </div>
     </div>
